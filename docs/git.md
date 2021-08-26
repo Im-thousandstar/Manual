@@ -50,3 +50,4 @@ $ git reset --hard HEAD
 ```
 $ git push origin main
 ```
+.mdでmaster pushができなかったので．．．
