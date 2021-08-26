@@ -12,7 +12,7 @@ $ git push origin master # repo1にpush
 $ git push foofoo master # repo2へpush
 ```
 
-## Rename repogitory
+## Rename repository
 ```
 $ cd .git
 $ open config
@@ -41,3 +41,12 @@ $ git config --global user.name -----
 $ git config --global user.email ----@gmail.com
 ```
 
+### fetch 取り消し
+```
+$ git reset --hard HEAD
+```
+
+### pushが上手くいかない
+```
+$ git push origin main
+```
