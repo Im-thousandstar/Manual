@@ -141,6 +141,7 @@ ctrl + k , v : preview
     ```
     C:\texlive\2021\texmf-dist\tex\latex
     ```
+2. 
 
 ```
 \usepackage{amsmath,amssymb,braket,bm,mathtools,amsfonts,url, cancel, mathrsfs}
@@ -186,7 +187,8 @@ ctrl + k , v : preview
 \allowdisplaybreaks
 
 ```
-2. 以下のコマンドで作ったpackageを浸透させる．(sudoいるかも)
+
+3. 以下のコマンドで作ったpackageを浸透させる．(sudoいるかも)
 ```
 $ mktexlsr
 ```
