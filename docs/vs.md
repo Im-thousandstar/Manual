@@ -141,6 +141,51 @@ ctrl + k , v : preview
     ```
     C:\texlive\2021\texmf-dist\tex\latex
     ```
+
+```
+\usepackage{amsmath,amssymb,braket,bm,mathtools,amsfonts,url, cancel, mathrsfs}
+\usepackage{graphicx}
+\usepackage[dvipdfmx]{color}
+%\usepackage{physics}
+\usepackage{color}
+%\usepackage[dvipdfmx]{graphicx}
+\usepackage{bm}
+\usepackage{ascmac}
+\usepackage{enumerate}
+\usepackage{url}
+\usepackage{comment}
+\usepackage{here}
+\usepackage{qcircuit}
+%\usepackage[usenames]{color}
+%\usepackage{colortbl}
+
+
+\setlength{\textwidth}{\fullwidth}
+\setlength{\evensidemargin}{\oddsidemargin}
+ 
+\DeclareMathOperator{\Ker}{Ker}
+\DeclareMathOperator{\wt}{wt}
+\DeclareMathOperator{\rank}{rank}
+\DeclareMathOperator{\Image}{Im}
+
+\newcommand{\tr}{\mathrm{tr}}
+\newcommand{\NOT}{\mathrm{NOT}}
+\newcommand{\AND}{\mathrm{AND}}
+\newcommand{\NAND}{\mathrm{NAND}}
+\newcommand{\OR}{\mathrm{OR}}
+\newcommand{\XOR}{\mathrm{XOR}}
+\newcommand{\CNOT}{\mathrm{CNOT}}
+\newcommand{\Tof}{\mathrm{Toffoli}}
+\newcommand{\qo}{\mathcal{E}}
+\newcommand{\qof}{\mathcal{F}}
+\newcommand{\paulix}{\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix} }
+\newcommand{\ry}[1]{ \cos \frac{#1}{2} & -\sin\frac{#1}{2} \\ \sin \frac{#1}{2} & \cos\frac{#1}{2}}
+\newcommand{\rot}[1]{ \cos {#1} & -\sin {#1} \\ \sin {#1} & \cos {#1}}
+\newcommand{\bk}{\qty}
+
+\allowdisplaybreaks
+
+```
 2. 以下のコマンドで作ったpackageを浸透させる．(sudoいるかも)
 ```
 $ mktexlsr
