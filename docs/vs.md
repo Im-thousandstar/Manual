@@ -135,3 +135,13 @@ $ latexmk -pvc main.tex
 ```
 ctrl + k , v : preview
 ```
+
+## TeX stile sheet
+1. package dir にstyle sheet用のフォルダを作成する．
+    ```
+    C:\texlive\2021\texmf-dist\tex\latex
+    ```
+2. 以下のコマンドで作ったpackageを浸透させる．(sudoいるかも)
+```
+$ mktexlsr
+```
