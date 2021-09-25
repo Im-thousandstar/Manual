@@ -123,25 +123,12 @@ if ($^O eq 'linux') {
 $clean_full_ext = "%R.synctex.gz"
 ```
 
-
-## Command
-ビルド後にPDFを表示(`ctrl + s`ごとに自動でPDFを更新)
-```
-$ latexmk -pvc main.tex 
-```
-
-
-## for Markdown
-```
-ctrl + k , v : preview
-```
-
-## TeX stile sheet
+## TeX style sheet
 1. package dir にstyle sheet用のフォルダを作成する．
     ```
     C:\texlive\2021\texmf-dist\tex\latex
     ```
-2. 
+2. `thous.sty`
 
 ```
 \usepackage{amsmath,amssymb,braket,bm,mathtools,amsfonts,url, cancel, mathrsfs}
@@ -159,7 +146,16 @@ ctrl + k , v : preview
 \usepackage{qcircuit}
 %\usepackage[usenames]{color}
 %\usepackage{colortbl}
-
+\usepackage[dvipdfmx]{hyperref}
+\usepackage{pxjahyper}
+\hypersetup{% hyperrefオプションリスト
+setpagesize=false,
+ bookmarksnumbered=true,%
+ bookmarksopen=true,%
+ colorlinks=true,%
+ linkcolor=blue,
+ citecolor=red,
+}
 
 \setlength{\textwidth}{\fullwidth}
 \setlength{\evensidemargin}{\oddsidemargin}
@@ -191,4 +187,16 @@ ctrl + k , v : preview
 3. 以下のコマンドで作ったpackageを浸透させる．(sudoいるかも)
 ```
 $ mktexlsr
+```
+
+
+## Command
+ビルド後にPDFを表示(`ctrl + s`ごとに自動でPDFを更新)
+```
+$ latexmk -pvc main.tex 
+```
+
+## for Markdown
+```
+ctrl + k , v : preview
 ```
