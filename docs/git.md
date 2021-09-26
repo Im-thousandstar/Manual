@@ -34,6 +34,7 @@ $ ssh-keygen
 ```
 $ cat ~/.ssh/id_rsa.pub
 ```
+GitのsettingページのNew SSHに登録
 
 ### PCに登録
 ```
