@@ -6,6 +6,7 @@
  [Qiita](https://qiita.com/rainbartown/items/d7718f12d71e688f3573)  
  [TeXフォーラム](https://oku.edu.mie-u.ac.jp/tex/mod/forum/discuss.php?d=2833&parent=16629)  
  [TeX Live 2020をMacBookにインストールする](https://snap.hyuki.net/20210212142647/)
+ [MacTeX](https://texwiki.texjp.org/?MacTeX)
  <br>
 
  ### TeXLive DL
