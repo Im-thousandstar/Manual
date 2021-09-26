@@ -26,6 +26,16 @@ Enter command: I
 ```
 ### TeX Liveへようこそ！
 
+## MacTeX
+```
+% brew install mactex-no-gui --cask
+```
+terminalを再起動してから
+```
+sudo tlmgr update --self --all
+```
+
+
 ## latexmkrc
 Home Dir.へ:`cd`
 ```
