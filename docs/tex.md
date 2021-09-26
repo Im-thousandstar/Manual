@@ -26,7 +26,7 @@ $ sudo ./install-tl -no-gui -repository http://mirror.ctan.org/systems/texlive/t
 ```
 Enter command: I
 ```
-### TeX Liveへようこそ！
+TeX Liveへようこそ！
 
 ## MacTeX
 ```
@@ -34,7 +34,7 @@ Enter command: I
 ```
 terminalを再起動してから
 ```
-sudo tlmgr update --self --all
+% sudo tlmgr update --self --all
 ```
 
 
