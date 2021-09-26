@@ -1,5 +1,5 @@
  # TeXliveのインストール
- ##　今回インストールしたTeXlive
+ ## 　今回インストールしたTeXlive
  `/usr/local/texlive/2021`
  ## 参考記事
  [TeX wiki](https://texwiki.texjp.org/?TeX%20Live%2FMac#k03895bf)  
