@@ -7,6 +7,7 @@
 
 ## for TeX
 ### setting json
+VSCode では設定を settings.json に書く．　VSCode内の左下の歯車マークから設定を選択し，　タブ右上のファイルマークを押すとJSONが開く．
 ```
 {
   // ---------- Language ----------
