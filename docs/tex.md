@@ -137,7 +137,7 @@ setpagesize=false,
 
 3. 以下のコマンドで作ったpackageを浸透させる．(sudoいるかも)
 ```
-$ mktexlsr
+$ sudo mktexlsr
 ```
 
 
