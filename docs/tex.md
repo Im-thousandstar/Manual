@@ -24,9 +24,8 @@ $ sudo ./install-tl -no-gui -repository http://mirror.ctan.org/systems/texlive/t
 ```
 Enter command: I
 ```
-### Finish, シンボリックリンクの追加
-```
-$ sudo /usr/local/texlive/2021/bin/x86_64-darwin/tlmgr path add
-```
+### TeX Liveへようこそ！
+
+
 
 
