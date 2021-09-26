@@ -10,16 +10,17 @@
  [MacTeX](https://texwiki.texjp.org/?MacTeX)
  <br>
 
- ### TeXLive DL
+ TeXLive DL
  ```
  $ curl -OL http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz
   ```
-### Expand
+Expand
 ```
 $ tar xvf install-tl-unx.tar.gz
 ```
-### cd expanded dir.
-### then, Install
+cd expanded dir.
+
+then, Install
 ```
 $ sudo ./install-tl -no-gui -repository http://mirror.ctan.org/systems/texlive/tlnet/
 ```
@@ -27,6 +28,7 @@ $ sudo ./install-tl -no-gui -repository http://mirror.ctan.org/systems/texlive/t
 Enter command: I
 ```
 TeX Liveへようこそ！
+
 
 ## MacTeX
 ```
