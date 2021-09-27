@@ -59,7 +59,7 @@ remote: Support for password authentication was removed on August 13, 2021. Plea
 remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
 ```
 というエラーが出たので，[参考にした記事](https://menta.sutaruhin.com/?p=3420)を見習い，
-アクセストークンキーをgenerateし，copy.
-usernameとtokenkeyで認証させた．
+アクセストークンキーをgenerateし，copy. 
+pwdの代わりにtokenkeyで認証させた．
 
 
