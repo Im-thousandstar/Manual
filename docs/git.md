@@ -52,3 +52,14 @@ $ git reset --hard HEAD
 $ git push origin main
 ```
 .mdでmaster pushができなかったので．．．
+
+## Personal Access Tokenについて
+```
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+```
+というエラーが出たので，[参考にした記事](https://menta.sutaruhin.com/?p=3420)を見習い，
+アクセストークンキーをgenerateし，copy.
+usernameとtokenkeyで認証させた．
+
+
