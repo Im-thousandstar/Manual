@@ -1,6 +1,4 @@
  # TeXliveのインストール
- ## 　今回インストールしたTeXlive
- `/usr/local/texlive/2021`
  ## 参考記事
  [TeX wiki](https://texwiki.texjp.org/?TeX%20Live%2FMac#k03895bf)  
  [Qiita](https://qiita.com/rainbartown/items/d7718f12d71e688f3573)  
@@ -9,28 +7,10 @@
  
  [MacTeX](https://texwiki.texjp.org/?MacTeX)
  <br>
-
- TeXLive DL
- ```
- $ curl -OL http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz
-  ```
-Expand
-```
-$ tar xvf install-tl-unx.tar.gz
-```
-cd expanded dir.
-
-then, Install
-```
-$ sudo ./install-tl -no-gui -repository http://mirror.ctan.org/systems/texlive/tlnet/
-```
-```
-Enter command: I
-```
-TeX Liveへようこそ！
-
-
 ## MacTeX
+ 　今回インストールしたTeXlive
+ `/usr/local/texlive/2021`
+ `/usr/local/`へ以下のコマンドでインストール
 ```
 % brew install mactex-no-gui --cask
 ```
@@ -79,7 +59,7 @@ $clean_full_ext = "%R.synctex.gz"
 ## TeX style sheet
 1. package dir にstyle sheet用のフォルダを作成する．
     ```
-    C:\texlive\2021\texmf-dist\tex\latex
+    /usr/local/texlive/2021/texmf-dist/tex/latex
     ```
 2. `thous.sty`
 
