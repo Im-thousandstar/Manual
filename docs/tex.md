@@ -10,6 +10,7 @@
 ## MacTeX
  　今回インストールしたTeXlive
  `/usr/local/texlive/2021`
+ 
  `/usr/local/`へ以下のコマンドでインストール
 ```
 % brew install mactex-no-gui --cask
