@@ -61,6 +61,7 @@ remote: Support for password authentication was removed on August 13, 2021. Plea
 remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
 ```
 というエラーが出たので，以下を参照した．
+
 [参考記事:personal access token & key chain](https://zenn.dev/hayata_yamamoto/articles/github-access-key)
 
 [参考記事:github docs](https://docs.github.com/ja/github/getting-started-with-github/getting-started-with-git/updating-credentials-from-the-macos-keychain)
