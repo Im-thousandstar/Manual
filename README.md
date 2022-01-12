@@ -1,7 +1,6 @@
 # Manual
-* `main.tex` : texの雛形
-* `thous/thous.sty` : スタイルシート
-* 'intro'
+* `thous/thous.sty, thou1.sty` : スタイルシート([jsbook, jsarticle])
+* 雛形等はEin_opt_thesis,1の　`main.tex`参照．
 
 ## Contents
 1. [GitHub いろいろ](docs/git.md)
