@@ -80,7 +80,12 @@ Pipfile		Pipfile.lock
 ```
 User/.local/share/virtualenvs
 ```
-に作成される．  
+に作成される． 
+ちなみに上記のパスは
+```
+$ pipenv --venv
+``` 
+で確認できる． 
 仮想環境の削除は，
 ```
 % pipenv --rm
@@ -90,7 +95,7 @@ User/.local/share/virtualenvs
 ```
 jupyter_notebooks % pipenv shell
 ```
-そうしたら，pythonコマンド使える．
+そうしたら，通常のpythonのコマンドが使える．
 ```
 (jupyter_notebooks) User@MacBook-Air jupyter_notebooks % python -V
 Python 3.9.7
@@ -99,4 +104,11 @@ Python 3.9.7
 仮想環境に入った状態で、pipenvでデータ分析用パッケージをインストールする．
 ```
 (jupyter_notebooks) User@MacBook-Air jupyter_notebooks % pipenv install jupyter numpy scipy pandas scikit-learn keras tensorflow matplotlib seaborn
+```
+インストールされているパッケージのバージョンアップ/確認
+```
+$ pipenv update
+```
+```
+$ cat pipfile
 ```
