@@ -10,4 +10,5 @@
 5. [Mac いろいろ](docs/mac.md)
 6. [vim](docs/vim.md)
 7. [Atcoder](docs/atcoder.md)
+8. [C++](docs/c.md)
  
