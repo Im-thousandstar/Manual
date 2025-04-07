@@ -124,3 +124,18 @@ pipのpath通す→C:\Users\thous\AppData\Local\Programs\Python\Python313\Script
 [参考記事2](https://zenn.dev/tikita/articles/f7a5bc16c36101#3.-%E5%AE%9F%E9%9A%9B%E3%81%ABpyenv%E3%81%A8pipenv%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%8B)
 [デジタル署名は出ていませんのエラー](https://qiita.com/sugimochi_1019/items/7be532081fc51992993f)
 
+インストールできたら、指定のフォルダにバージョン指定して仮想環境を作成
+```C:\~>pipenv install --python 3.13.3
+```
+仮想環境にライブラリを入れる。
+```
+C:\~>pipenv install  scikit-learn
+```
+仮想環境に入って
+```
+C:\~>pipenv shell
+```
+実行
+```
+C:\~>python ~.py
+```
