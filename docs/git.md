@@ -22,6 +22,8 @@ $ git remote -v
 ```
 
 ## 複数PCから同じアカウントにgitする
+[新規winを紐づけ（最新）](https://qiita.com/suthio/items/2760e4cff0e185fe2db9)
+
 [参考記事](https://tips-memo.com/git-same-account)
 
 ### ssh key作成 (passwordは空)
