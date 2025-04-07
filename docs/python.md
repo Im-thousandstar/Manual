@@ -113,9 +113,14 @@ $ pipenv update
 $ cat pipfile
 ```
 
-# 2025追記：windowsへインストール
+## 2025追記：windowsへインストール(winはpathがほんとやっかい。。。)
 以下のパスを通して、設定→アプリの詳細設定→アプリの実行エイリアスをオフ
 ```
 pythonのpath通す→C:\Users\thous\AppData\Local\Programs\Python\Python313\
 pipのpath通す→C:\Users\thous\AppData\Local\Programs\Python\Python313\Scripts\
 ```
+## Pyenv + Pipenv 
+[参考記事1](https://zenn.dev/sql_geinin/articles/29f2b0a5c55db2)
+[参考記事2](https://zenn.dev/tikita/articles/f7a5bc16c36101#3.-%E5%AE%9F%E9%9A%9B%E3%81%ABpyenv%E3%81%A8pipenv%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%8B)
+[デジタル署名は出ていませんのエラー](https://qiita.com/sugimochi_1019/items/7be532081fc51992993f)
+
