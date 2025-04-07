@@ -112,3 +112,10 @@ $ pipenv update
 ```
 $ cat pipfile
 ```
+
+# 2025追記：windowsへインストール
+以下のパスを通して、設定→アプリの詳細設定→アプリの実行エイリアスをオフ
+```
+pythonのpath通す→C:\Users\thous\AppData\Local\Programs\Python\Python313\
+pipのpath通す→C:\Users\thous\AppData\Local\Programs\Python\Python313\Scripts\
+```
