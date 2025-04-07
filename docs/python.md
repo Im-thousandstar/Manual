@@ -125,7 +125,8 @@ pipのpath通す→C:\Users\thous\AppData\Local\Programs\Python\Python313\Script
 [デジタル署名は出ていませんのエラー](https://qiita.com/sugimochi_1019/items/7be532081fc51992993f)
 
 インストールできたら、指定のフォルダにバージョン指定して仮想環境を作成
-```C:\~>pipenv install --python 3.13.3
+```
+C:\~>pipenv install --python 3.13.3
 ```
 仮想環境にライブラリを入れる。
 ```
