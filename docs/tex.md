@@ -22,6 +22,7 @@ terminalを再起動してから
 
 
 ## latexmkrc
+### 2025/4/8追記：windowsでhome dirに.latexmkrcをつくったとき、勝手に.pl拡張子がついちゃって読み込まれなかった事象が発生。。。latexmkrc は拡張子なしの Perl。
 Home Dir.へ:`cd`
 ```
 $ touch .latexmkrc
